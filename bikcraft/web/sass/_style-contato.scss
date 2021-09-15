@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* --------------------- Contato - intro --------------------------- */
+.introducao_contato {
+  background: url("../img/background/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* --------------------- Orçamento --------------------------- */
+
+.orcamento-contato {
+  width: 100%;
+  height: 600px;
+}
+
+.formulario-contato {
+  @include tipo-2(18);
+  color: $black;
+}
+
+.button-contato {
+  font-weight: bold;
+  @include tipo-2(14);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 140px;
+  height: 40px;
+  border: $black solid 4px;
+  color: $black;
+  background-color: $white;
+  padding: 7px 21px;
+}
+
+.button-contato:hover {
+  color: $white;
+  background-color: $black;
+}
+
+.input-contato {
+  width: 400px;
+  height: 40px;
+  border: solid 4px $black;
+  color: $black;
+  margin: 5px 0 20px 0;
+  @include tipo-1(14);
+  background-color: $white;
+  outline: none;
+}
+
+.textarea-contato {
+  width: 400px;
+  height: 120px;
+  border: solid 4px $black;
+  color: $black;
+  margin: 5px 0 15px 0;
+  @include tipo-1(14);
+  background-color: $white;
+  outline: none;
+}
+
+.dados-contato h3,
+.dados-contato p {
+  text-align: left;
+}
+
+.dados-contato h3 {
+  color: $black;
+  margin-bottom: 20px;
+}
+
+.dados-contato h3::after {
+  content: none;
+}
+
+.dados-contato p,
+.dados-contato li {
+  color: $black;
+  @include tipo-2(18);
+}
+
+.lista-dados-contato {
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.lista-endereco {
+  margin-bottom: 54px;
+}
+
+.endereco {
+  margin-top: -50px;
+  margin-bottom: 60px;
+}

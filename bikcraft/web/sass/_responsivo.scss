@@ -1,0 +1,315 @@
+/* Estilo para tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Produtos-home */
+
+  .produtos_lista li p {
+    max-width: 200px;
+  }
+
+  .produtos_lista_img img {
+    margin-top: 15px;
+  }
+
+  /* Portfólio-home */
+
+  .portfolio_home {
+    height: 750px;
+  }
+
+  /* footer*/
+
+  .infos {
+    margin-top: -8px;
+  }
+
+  .bg_footer {
+    height: 160px;
+  }
+
+  /* Sobre */
+
+  #historia-p1 {
+    max-width: 440px;
+  }
+
+  /* Produtos */
+
+  .img-produto img {
+    height: 280px;
+    margin-top: -10px;
+  }
+
+  .bgprodutos {
+    width: 458px;
+  }
+
+  .icone-produto {
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    bottom: 300px;
+  }
+
+  .infos-produto {
+    margin-top: -290px;
+  }
+
+  th {
+    font-size: 1em;
+    letter-spacing: 0;
+  }
+
+  /* Produtos */
+
+  .portfolio {
+    height: 580px;
+  }
+
+  /* Contato */
+
+  .orcamento-contato {
+    height: 550px;
+  }
+}
+
+/* Estilo para Smartphone */
+
+@media only screen and (max-width: 787px) {
+  /* header */
+
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0;
+    padding: 1px 3px;
+  }
+
+  .header_menu ul li a {
+    border: 3px solid $black;
+    width: 140px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: $white;
+  }
+
+  /* Introdução-home */
+
+  .introducao {
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    background: url("../img/background/bg-intro-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  /* Produtos */
+
+  .produtos_lista {
+    padding-bottom: 5px;
+  }
+
+  /* Portfólio-home */
+
+  .portfolio_home {
+    height: 780px;
+  }
+
+  /* qualidade-home */
+
+  #img_linha {
+    display: none;
+  }
+
+  .div-lista-qualidade {
+    position: fixed;
+  }
+
+  .qualidade_lista {
+    margin-left: 3px;
+    margin-bottom: -30px;
+  }
+
+  .qualidade_img {
+    margin-bottom: 100px;
+  }
+
+  /* footer */
+
+  .footer {
+    height: 510px;
+  }
+  .bg_footer {
+    height: 450px;
+  }
+
+  .footer_infos li,
+  .footer_infos p,
+  .footer_infos h3 {
+    text-align: center;
+  }
+
+  .footer_infos li {
+    margin-bottom: 5px;
+  }
+
+  .footer_infos h3::after {
+    margin: 5px auto 10px auto;
+  }
+
+  .historia {
+    padding-right: 0;
+  }
+
+  .direitos_reservados {
+    text-align: center;
+  }
+
+  /* introdução sobre */
+
+  .intro_interna {
+    margin: 0 auto 60px auto;
+  }
+
+  .historia-missao-visao p,
+  .historia-missao-visao h2 {
+    text-align: center;
+  }
+
+  .largura-corpo-texto {
+    @include tipo-1(14);
+  }
+
+  .valores h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .valores ul li {
+    font-size: 1em;
+  }
+
+  .historia-missao-visao h2::after,
+  .valores h2::after {
+    margin: 5px auto 10px auto;
+  }
+
+  /* Produtos */
+
+  .img-produto img {
+    display: none;
+  }
+
+  .bgprodutos-passeio {
+    height: 280px;
+    background: url("../img/produtos/bikcraft-passeio-1-mobile.jpg") no-repeat
+      center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  #passeio,
+  #esporte {
+    margin-left: -16px;
+  }
+
+  .bgprodutos-passeio h1::before,
+  .bgprodutos-passeio h1::after {
+    margin-left: 46px;
+  }
+
+  .bgprodutos-esporte h1::before,
+  .bgprodutos-esporte h1::after {
+    margin-right: 23px;
+  }
+
+  .icone-produto {
+    width: 300px;
+    margin-bottom: -40px;
+  }
+
+  .icone-alinhamento img {
+    margin-left: 8px;
+  }
+
+  .frase-produto p {
+    text-align: center;
+    @include tipo-1(14);
+  }
+
+  th {
+    font-size: 0.725em;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  .infos-produto {
+    margin-bottom: 80px;
+  }
+
+  /* Orçamento */
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  .orcamento {
+    height: 1050px;
+  }
+
+  button {
+    margin-bottom: 30px;
+  }
+
+  .lista-dados {
+    margin-bottom: 40px;
+  }
+
+  /* Portfólio */
+
+  .portfolio {
+    height: 610px;
+  }
+
+  /* Contato */
+
+  .orcamento-contato {
+    height: 930px;
+  }
+
+  .endereco {
+    margin-bottom: 30px;
+  }
+
+  .input-contato {
+    width: 300px;
+  }
+
+  .textarea-contato {
+    width: 300px;
+  }
+}

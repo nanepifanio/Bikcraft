@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* --------------------- Sobre - intro --------------------------- */
+
+.introducao_sobre {
+  background: url("../img/background/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* --------------------- Sobre --------------------------- */
+
+.historia-missao-visao p,
+.historia-missao-visao h2 {
+  text-align: left;
+}
+
+.historia-missao-visao h2::after,
+.valores h2::after {
+  margin: 5px 0 15px 0;
+}
+
+#historia-p1 {
+  margin-bottom: 20px;
+  @include tipo-1(18);
+}
+
+#historia-p2 {
+  @include tipo-1(18);
+}
+
+.valores h2 {
+  text-align: left;
+}
+
+.valores li {
+  @include tipo-2(18);
+}
+
+.largura-corpo-texto {
+  max-width: 470px;
+}
+
+.imagem-equipe {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* --------------------- Footer Sobre --------------------------- */
+
+.footer-sobre {
+  margin-top: 30px;
+}

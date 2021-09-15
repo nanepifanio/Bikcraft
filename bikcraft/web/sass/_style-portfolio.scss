@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* --------------------- Portfolio - intro --------------------------- */
+.introducao_portfolio {
+  background: url("../img/background/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* --------------------- Quote Interno --------------------------- */
+
+.quote-interno {
+  max-width: 400px;
+  margin: 0 auto;
+  color: $black;
+  text-align: center;
+}
+
+.quote-interno p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-interno cite {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  @include tipo-1(14);
+}
+
+/* --------------------- Portfólio --------------------------- */
+
+.portfolio {
+  width: 100%;
+  height: 680px;
+  background-color: $black;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.portfolio_lista {
+  margin: 20px 0 20px 0;
+}
+
+.footer-sobre-portfolio {
+  margin-top: 0px;
+}
