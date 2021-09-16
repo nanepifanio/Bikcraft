@@ -9,7 +9,7 @@
  
  👇 Clique na imagem para ser direcionado para o site 👇
  
-![bikcraft](https://user-images.githubusercontent.com/80923539/133697040-05c410de-e6c5-4d59-ba77-22bd18e67658.jpg)
+[![bikcraft](https://user-images.githubusercontent.com/80923539/133697040-05c410de-e6c5-4d59-ba77-22bd18e67658.jpg)]()
  
 Projeto desenvolvido no curso "Origamid" onde tive meu primeiro contato com HTML, CSS (utilizando o float ainda, juntamente com um sistema de grid feito na unha pelo professor rsrs), PHP para manipular um formulário e um pouco de Javascript. Atualmente, estou refatorando o mesmo com SASS(SCSS), para fixar meu conhecimento nesta ferramenta . No futuro, pretendo substituir o CSS dele usando Flexbox ou Grid, ou até mesmo usar os dois juntos caso haja necessidade.
 
